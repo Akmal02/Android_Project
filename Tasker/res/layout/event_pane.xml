@@ -1,0 +1,50 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" 
+	android:orientation="horizontal"
+	android:padding="10dp">
+
+
+	<FrameLayout
+		android:id="@+id/textBox"
+		android:layout_width="52dp"
+		android:layout_height="52dp"
+		android:background="#008000" >
+		
+		<TextView
+			android:id="@+id/textBoxTextView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:textColor="#ffffff"
+			android:textSize="24sp"
+			android:textStyle="bold" />
+
+	</FrameLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_marginLeft="12dp">
+
+
+		<TextView
+			android:id="@+id/text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="20sp"
+			android:textColor="#cccccc" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="14sp"
+			android:textColor="#aaaaaa"
+			android:singleLine="true"
+			android:text="Description goes here..."/>
+
+	</LinearLayout>
+
+</LinearLayout>

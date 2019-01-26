@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical">
+
+    <com.me.mygame.GameView
+		android:id="@+id/gameView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+	
+	<!--
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:weightSum="2"
+		android:orientation="horizontal">
+
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:orientation="vertical"
+			android:weightSum="3">
+
+			<Button
+				android:id="@+id/upButton"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:text="Up"/>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:orientation="horizontal"
+				android:weightSum="2">
+
+
+
+				<Button
+					android:id="@+id/leftButton"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:text="Left"/>
+
+				<Button
+					android:id="@+id/rightButton"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:text="Right"/>
+
+			</LinearLayout>
+
+
+
+			<Button
+				android:id="@+id/downButton"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:text="Down"/>
+
+
+
+
+		</LinearLayout>
+
+		
+		<ImageButton
+			android:id="@+id/updateButton"
+			android:layout_width="0dp"
+			android:layout_height="160dp"
+			android:layout_weight="1"
+			android:alpha="128"
+			android:src="@android:drawable/ic_media_play"/>
+
+	
+	</LinearLayout>
+
+	-->
+	
+	<ImageButton
+		android:id="@+id/updateButton"
+		android:layout_width="120dp"
+		android:layout_height="120dp"
+		android:alpha="128"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentBottom="true"
+		android:src="@android:drawable/ic_media_play"/>
+	
+
+</RelativeLayout>
+
+

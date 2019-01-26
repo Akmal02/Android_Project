@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/menu_play"
+        android:title="Play"
+		android:showAsAction="ifRoom" />
+	<item
+		android:id="@+id/menu_help"
+		android:title="Help"
+		android:showAsAction="never" />
+	<item
+		android:id="@+id/menu_about"
+		android:title="About"
+		android:showAsAction="never" />
+    
+</menu>
